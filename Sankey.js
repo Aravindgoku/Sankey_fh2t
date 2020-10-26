@@ -1,3 +1,6 @@
+//<script src='./javascript/plotly.min.js'>
+//</script>
+//<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js"></script>
 input_file = 'Problem_XX.json';
 Plotly.d3.json(input_file, function (fig) {
     problem_list = fig.input_problem_list;
