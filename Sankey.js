@@ -1,4 +1,4 @@
-input_file = 'Pb_31_Revised.json';
+input_file = 'Problem_XX.json';
 Plotly.d3.json(input_file, function (fig) {
     problem_list = fig.input_problem_list;
     var label = [];
